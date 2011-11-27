@@ -14,7 +14,7 @@ def gem_lib_dir(full_gem_name)
 end
 
 def gem_version_file(full_gem_name)
-  "lib#{gem_name_split(full_gem_name)}/version.rb"
+  "lib/#{gem_name_split(full_gem_name)}/version.rb"
 end
 
 def ch_require_path(line, full_gem_name)
